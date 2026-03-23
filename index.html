@@ -13,10 +13,10 @@
         background-color: #f0f0f0;
     }
     .principal{width: 800px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    margin: 0 auto;
-    border-collapse: collapse;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        margin: 0 auto;
+        border-collapse: collapse;
     }
      .topo{
         background-color: rgb(139, 0, 0);
@@ -31,6 +31,33 @@
         padding: 5px;
         font-size: 0.9em;
     }
+    .barralateral{
+        width: 200px;
+        vertical-align: top;
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-right: 1px solid #ccc;
+    }
+    .menu-box{
+        border: 1px solid #ddd;
+        background-color: #eee;
+    }
+    .titulomenu{
+        background-color: #ddd;
+        padding: 5px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .menu-list{
+        list-style-type: disc;
+        padding-left: 25px;
+        line-height: 1.8;
+    }
+    .corpoprincipal{
+        padding: 20px;
+        vertical-align: top;
+        height: 300px;
+    }
 
 </style>
 <body>
@@ -44,6 +71,25 @@
          <tr>
             <td colspan="2" class="subtopo">
                 Usando tabelas em HTML
+            </td>
+        </tr>
+        <tr>
+            <td class="barra lateral">
+                <div class="menu-box">
+                    <div class="titulomenu">Menu</div>    
+                    <ul class="menu-list">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Contato</a></li>
+                </ul>
+                </div>
+            </td>
+            <td class="corpoprincipal">
+                <h2 style="margin-top: 0;">Bem-vindo!</h2>
+                <hr>
+                <p>Este é um exemplo de site criado utilizando tabelas.</p>
+                <p>Antigamente, esse era um método comum para estruturar páginas.</p>
             </td>
         </tr>
 
